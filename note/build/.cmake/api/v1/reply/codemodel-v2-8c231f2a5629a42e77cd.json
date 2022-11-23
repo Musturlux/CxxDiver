@@ -1,0 +1,136 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "_deps/catch2-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-_deps.catch2-build-Debug-b1208c190cea666efc56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/catch2-src"
+				},
+				{
+					"build" : "_deps/catch2-build/src",
+					"jsonFile" : "directory-_deps.catch2-build.src-Debug-cd0b0c6cd8598cf9777c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/catch2-src/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "codeEntrainement",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2::@fa92aa50e9bf5e1a7206",
+					"jsonFile" : "target-Catch2-Debug-37ea6d117d7395a45e8d.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2WithMain::@fa92aa50e9bf5e1a7206",
+					"jsonFile" : "target-Catch2WithMain-Debug-69a559bb212ddcd510ac.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check_parenthese::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check_parenthese-Debug-017488856559d630334e.json",
+					"name" : "check_parenthese",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check_parenthese_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check_parenthese_test-Debug-0a6a21cf2ecde22cb617.json",
+					"name" : "check_parenthese_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/musturlux/Documents/MLCPPdonjon/note/build",
+		"source" : "/home/musturlux/Documents/MLCPPdonjon/note"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
